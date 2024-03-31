@@ -1,0 +1,323 @@
+*
+{
+    margin:0;
+    padding:0;
+
+}
+body
+{
+    background-color: black;
+
+
+
+}
+h1{
+    display: inline-flex;
+    color:greenyellow;
+    text-align: center;
+   margin-left: 450px;
+   margin-top: 20px;
+    letter-spacing: 10px;
+
+
+}
+.title
+{
+    display: flex;
+    justify-content: center;
+}
+
+input
+{
+    margin: 60px;
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+    padding:10px
+}
+h5
+{
+    display: inline;
+    margin-left:20px;
+    margin-top: 20px;
+    color:rgb(232, 236, 0);
+    text-decoration: solid;
+   
+    text-shadow:2px 2px rgb(28, 29, 26);
+    
+    
+   
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+    
+   
+}
+#seats1{
+    margin-left: 100px;
+}
+
+
+.events
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+#title1 
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 5px;
+    text-shadow: 1px 1px yellow;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+
+}
+.event1
+{
+    width:300px;
+    height:350px;
+    background-color: rgb(168, 9, 9);
+    margin-left: 30px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+
+.event1:active{
+    background-color:ghostwhite;
+}
+.event2:active{
+    background-color:ghostwhite;
+}
+.event3:active{
+    background-color:ghostwhite;
+}
+.event4:active{
+    background-color:ghostwhite;
+}
+.event5:active{
+    background-color:ghostwhite;
+}
+.event6:active{
+    background-color:ghostwhite;
+}
+.event7:active{
+    background-color:ghostwhite;
+}
+.event8:active{
+    background-color:ghostwhite;
+}
+
+img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: chartreuse;
+    border-radius: 20px;
+}
+a{
+    text-align: center;
+    color:gold;
+    margin-left: 50px;
+    padding:10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+}
+a:hover
+{
+    color:black;
+}
+
+.event2
+{
+    width:300px;
+    height:350px;
+    background-color: rgb(168, 9, 9);
+    margin-left: 30px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+#title2
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 5px;
+    text-shadow: 1px 1px yellow;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+#seats2{
+    margin-left: 100px;
+}
+.event3
+{
+    width:300px;
+    height:350px;
+    background-color: rgb(168, 9, 9);
+    margin-left: 30px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+#title3
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 5px;
+    text-shadow: 1px 1px yellow;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+#seats3{
+    margin-left: 100px;
+}
+.event4
+{
+    width:300px;
+    height:350px;
+    background-color: rgb(168, 9, 9);
+    margin-left: 30px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+
+}
+#title4
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 5px;
+    text-shadow: 1px 1px yellow;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+#seats4{
+    margin-left: 100px;
+}
+
+.event5
+{
+    width:300px;
+    height:350px;
+    background-color: rgb(168, 9, 9);
+    margin-left: 30px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+
+
+}
+#title5
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 5px;
+    text-shadow: 1px 1px yellow;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+#seats5{
+    margin-left: 100px;
+}
+.event6
+{
+    width:300px;
+    height:350px;
+    background-color: rgb(168, 9, 9);
+    margin-left: 30px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+
+}
+#title6
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 5px;
+    text-shadow: 1px 1px yellow;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+#seats6{
+    margin-left: 100px;
+}
+.event7
+{
+    width:300px;
+    height:350px;
+    background-color: rgb(168, 9, 9);
+    margin-left: 30px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+
+}
+#title7
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 5px;
+    text-shadow: 1px 1px yellow;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+#seats7{
+    margin-left: 100px;
+}
+.event8
+{
+    width:300px;
+    height:350px;
+    background-color: rgb(168, 9, 9);
+    margin-left: 30px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+
+}
+#title8
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 5px;
+    text-shadow: 1px 1px yellow;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+#seats8{
+    margin-left: 100px;
+}
+
